@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="as">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#4a101b">
+  <meta name="description" content="মিণ্টু আৰু সবিতাৰ বিয়াৰ আন্তৰিক নিমন্ত্ৰণ।">
+  <title>মিণ্টু আৰু সবিতা — বিয়াৰ নিমন্ত্ৰণ</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="petals" aria-hidden="true"></div>
+  <main>
+    <section class="welcome screen" id="welcome" aria-labelledby="welcome-title">
+      <div class="welcome-card">
+        <div class="woven-edge" aria-hidden="true"></div>
+        <div class="ganesha" role="img" aria-label="শ্ৰী গণেশ">
+          <svg viewBox="0 0 120 120" aria-hidden="true">
+            <circle cx="60" cy="60" r="52" fill="none" stroke="currentColor" stroke-width="1.5" opacity=".55"/>
+            <path d="M37 46c0-14 10-24 23-24s23 10 23 24v11c0 12-10 21-23 21S37 69 37 57V46Z" fill="currentColor" opacity=".94"/>
+            <path d="M38 43 23 32c-2-2-5 0-4 3l8 24 11-2m44-14 15-11c2-2 5 0 4 3l-8 24-11-2" fill="currentColor"/>
+            <path d="M52 78c1 13 3 19 11 19 6 0 9-5 7-10-2-4-8-4-10 0" fill="none" stroke="currentColor" stroke-width="7" stroke-linecap="round"/>
+            <path d="M46 47c2-5 8-7 12-3m4 0c4-4 10-2 12 3M53 62h2m10 0h2m-13 9c4 3 8 3 12 0" fill="none" stroke="#4a101b" stroke-width="2.5" stroke-linecap="round"/>
+            <path d="M54 31c2-5 10-5 12 0-2 5-10 5-12 0Z" fill="#d9a64e"/>
+          </svg>
+        </div>
+        <p class="eyebrow">শ্ৰী গণেশায় নমঃ</p>
+        <h1 id="welcome-title">এটি মৰমৰ নিমন্ত্ৰণ</h1>
+        <p class="intro">দুটা মন, এটি মৰমৰ বন্ধন</p>
+
+        <div class="name-join" aria-label="মিণ্টু আৰু সবিতা">
+          <span class="person person-left">মিণ্টু</span>
+          <button class="heart-button" id="heart-button" type="button" aria-label="মিণ্টু আৰু সবিতাৰ মৰমৰ বন্ধন আৰম্ভ কৰক">
+            <svg viewBox="0 0 72 66" aria-hidden="true">
+              <path class="heart-shape" d="M36 60 8 33C-8 15 13-5 30 9l6 6 6-6C59-5 80 15 64 33L36 60Z"/>
+            </svg>
+          </button>
+          <span class="person person-right">সবিতা</span>
+        </div>
+        <p class="join-caption" id="join-caption">হৃদয়ত স্পৰ্শ কৰক</p>
+
+        <button class="enter-button" id="enter-button" type="button" hidden>বিয়াৰ নিমন্ত্ৰণখন মেলক <span aria-hidden="true">❋</span></button>
+        <p class="music-status" id="music-status" role="status" aria-live="polite">এটি মৰমৰ আৰম্ভণিৰ অপেক্ষাত…</p>
+        <div class="woven-edge woven-edge-bottom" aria-hidden="true"></div>
+      </div>
+      <p class="welcome-footnote">মাঘ মাহৰ শুভ ক্ষণত</p>
+    </section>
+
+    <section class="invitation screen" id="invitation" aria-labelledby="invitation-title" hidden>
+      <article class="invitation-card">
+        <div class="woven-edge" aria-hidden="true"></div>
+        <div class="card-content">
+          <p class="eyebrow">শুভ বিবাহ</p>
+          <div class="small-ganesha" aria-hidden="true">ॐ</div>
+          <h2 id="invitation-title">সাদৰ নিমন্ত্ৰণ</h2>
+          <p class="invitation-copy">আমাৰ মৰমৰ বন্ধনক আশীৰ্বাদ আৰু মৰমেৰে পূৰ্ণ কৰিবলৈ</p>
+          <div class="couple-photo-wrap">
+            <span class="photo-flower flower-one" aria-hidden="true">✿</span>
+            <img class="couple-photo" src="assets/mintu-sabita.jpeg" alt="মিণ্টু আৰু সবিতা">
+            <span class="photo-flower flower-two" aria-hidden="true">✿</span>
+          </div>
+          <p class="together-label">দুয়ো একেলগে</p>
+          <h3 class="couple-names">মিণ্টু <span aria-hidden="true">♡</span> সবিতা</h3>
+          <div class="divider" aria-hidden="true"><span>❋</span></div>
+          <p class="magh-label">মাঘ মাহৰ শুভ লগনত</p>
+          <p class="blessing">আপোনালোকৰ উপস্থিতি আৰু আশীৰ্বাদে আমাৰ এই শুভ দিনটি অধিক স্মৰণীয় কৰি তুলিব।</p>
+          <p class="closing">সাদৰেৰে অপেক্ষাত থাকিলোঁ</p>
+          <p class="signature">মিণ্টু আৰু সবিতা</p>
+          <button class="music-button" id="music-button" type="button" aria-label="গীত বন্ধ কৰক">♫ <span>গীত চলি আছে</span></button>
+          <p class="card-music-status" id="card-music-status" role="status" aria-live="polite"></p>
+          <button class="back-button" id="back-button" type="button">প্ৰথম পৃষ্ঠালৈ উভতি যাওক</button>
+        </div>
+        <div class="woven-edge woven-edge-bottom" aria-hidden="true"></div>
+      </article>
+    </section>
+  </main>
+
+  <audio id="uruli-audio" src="assets/uruli.mp3" preload="auto" autoplay></audio>
+  <audio id="biya-audio" src="assets/biya-nam.mp3" preload="auto" loop></audio>
+</body>
+</html>
